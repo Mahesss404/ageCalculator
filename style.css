@@ -71,7 +71,7 @@ h1,h2,h3,body {
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: 140%; /* 28px */
+    line-height: 140%;
     letter-spacing: 0.4px;
 }
 
@@ -127,7 +127,7 @@ h1,h2,h3,body {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
     letter-spacing: 0.32px;
 }
 
@@ -157,11 +157,10 @@ h1,h2,h3,body {
 
 #result span {
     font-size: 64px;
-    font-weight: 600;
     color: #1f1f1f;
     padding: 4px;
     border-radius: 8px;
-    gap: 16px;
+    gap: 24px;
 }
 
 /* Error message styles */
@@ -172,10 +171,7 @@ h1,h2,h3,body {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    /* background: linear-gradient(135deg, #ff6b6b, #ff8e8e); */
     border-radius: 16px;
-    /* box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3); */
-    /* border: 2px solid #ff5252; */
     max-width: 400px;
     margin: 0 auto;
 }
@@ -234,7 +230,6 @@ h1,h2,h3,body {
     flex-direction: column;
     position: fixed;
     text-align: center;
-    /* max-width: 400px; */
     padding: 32px;
     border-radius: 16px;
     gap: 40px;
@@ -244,7 +239,6 @@ h1,h2,h3,body {
     background-color: white;
     opacity: 0;
     transition: all 0.3s ease-in-out;
-    /* box-shadow: 0 4px 8px #1f1f1f; */
 }
 
 .popup.show {
@@ -275,23 +269,18 @@ h1,h2,h3,body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    font-size: 20px;
-    font-weight: 600;
     margin-bottom: 25px;
-    line-height: 1.6;
     background: none;
 }
 
 .age-display h2 {
     font-size: 64px;
-    padding: 8px 12px;
     background-color: #1f1f1f;
-    padding: 16px;
-    border-radius: 16px;
+    padding: 20px 48px;
+    border-radius: 50px;
 }
 
 .age-number {
-    /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
     color: white;
     border-radius: 8px;
     font-weight: 700;
@@ -329,8 +318,6 @@ h1,h2,h3,body {
 
 .mascot-img {
     margin-top: 16px;
-    /* top: 80%;
-    position: absolute; */
     background:none ;
 }
 .star-box {
@@ -343,7 +330,6 @@ h1,h2,h3,body {
 }
 
 .star-group {
-    /* position: absolute; */
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     rotate: 45deg;
@@ -353,12 +339,10 @@ h1,h2,h3,body {
 
 .star-img {
     background: none;
-    /* position: absolute; */
 }
 
-/*  */
 
-/* From Uiverse.io by reesaldles */ 
+/* Loading animation */
 .spinner {
     width: 44px;
     height: 44px;
