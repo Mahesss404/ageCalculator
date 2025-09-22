@@ -5,7 +5,7 @@
     font-family: 'Helvetica neue', sans-serif;
     background-color: #1f1f1f;
 }
-body {
+body,a,button, input {
     cursor: url('assets/cursor.svg'), auto;
     height: 100vh;
     overflow: hidden;
@@ -127,7 +127,7 @@ h1,h2,h3,body {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%;
+    line-height: 140%; /* 22.4px */
     letter-spacing: 0.32px;
 }
 
